@@ -12,6 +12,7 @@ const(
 	queryGetUser	= "SELECT id, first_name, last_name, email, date_created FROM users WHERE id=?;"
 	queryUpdateUser = "UPDATE users SET first_name=?, Last_name=?, email=? WHERE id=?;"
 	queryDeleteUser	= "DELETE FROM users WHERE id=?;"
+	queryByStatus	= "SELECT id, first_name, last_name, email, date_created WHERE status=?;"
 )
 
 
